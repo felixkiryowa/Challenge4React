@@ -7,7 +7,7 @@ cache:
 addons:
   code_climate
 before_script:
-  # - export CC_TEST_REPORTER_ID=92b937d7451fb73bce6c85e2911f11d963c04ca448af582b59d4595e18398653
+  - export CC_TEST_REPORTER_ID=aa5ec624cbe8f1f07bf176ce42bacea660633524e17b52ce5c15857dd426b393
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
