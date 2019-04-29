@@ -6,7 +6,6 @@ cache:
   - node_modules
 addons:
   code_climate
-  
 before_script:
   - export CC_TEST_REPORTER_ID=aa5ec624cbe8f1f07bf176ce42bacea660633524e17b52ce5c15857dd426b393
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
