@@ -3,6 +3,7 @@ import {shallow} from 'enzyme';
 import {App} from '../components/App';
 
 
+
 describe('Testing App Component', () => {
     let mountApp;
     beforeEach(() => {
