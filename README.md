@@ -1,3 +1,4 @@
-<!-- [![CircleCI](https://circleci.com/gh/felixkiryowa/Challenge4React.svg?style=svg)](https://circleci.com/gh/felixkiryowa/Challenge4React)
 
-[![codecov](https://codecov.io/gh/felixkiryowa/Challenge4React/branch/develop/graph/badge.svg)](https://codecov.io/gh/felixkiryowa/Challenge4React) -->
+[![Build Status](https://travis-ci.org/felixkiryowa/Challenge4React.svg?branch=develop)](https://travis-ci.org/felixkiryowa/Challenge4React)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/86570448257bbea05df6/test_coverage)](https://codeclimate.com/github/felixkiryowa/Challenge4React/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/86570448257bbea05df6/maintainability)](https://codeclimate.com/github/felixkiryowa/Challenge4React/maintainability)
