@@ -6,6 +6,7 @@ import LandingPage  from '../components/landing/Landing';
 import Login from '../components/auth/Login';
 import registerContainer from '../components/auth/registerContainer';
 import Navbar from '../components/landing/Navbar';
+import '../../public/dest/style.css';
 
 
 
