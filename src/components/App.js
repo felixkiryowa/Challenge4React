@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 import {Provider} from  'react-redux';
 import store from '../store'; 
 import { BrowserRouter as Router, Route} from 'react-router-dom';
@@ -15,16 +14,16 @@ export class App extends Component {
     render() {
       
         return(
-            <Provider store={store }>
-                <Router>
-                    <div className="App">
+            <div className="App">
+                <Provider store={store }>
+                    <Router>
                         <Navbar />
                         <Route exact path="/" component={LandingPage} />
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/signup" component={registerContainer} />
-                    </div>
-                </Router>
-            </Provider>
+                    </Router>
+                </Provider>
+            </div>
         )
        
     }
